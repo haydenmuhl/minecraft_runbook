@@ -2,6 +2,18 @@
 
 This is a guide to common administrative tasks on the Minecraft server.
 
+## Logging in to the Server
+
+The best way to access the server is with `ssh`. From a command prompt, run the following command.
+
+    ssh minecraft@<server IP address>
+
+`ssh` is the program used to access the server. `minecraft` is the Linux user you are logging in as. The server IP address determines which server you log in to.
+
+The first time you log in to the server, you should see a warning saying the authenticity of the server cannot be verified. This is expected. It will ask you to save some information about the server you're logging in to. Say yes.
+
+It should prompt you for a password. Enter the password and press enter. You should now have a command prompt on the remote server.
+
 ## Stopping the Server
 
 The Minecraft server is running in a screen session.
